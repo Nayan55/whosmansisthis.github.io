@@ -1,7 +1,7 @@
 ---
 layout: page
 title: links
-permalink: /links
+permalink: /links/
 ---
 1. I like to play [Fortnite][link1]
 2. I like to shame people in [Snowfight][link2]
