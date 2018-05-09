@@ -22,7 +22,7 @@ url: "https://whosmansisthis.github.io" # the base hostname & protocol for your 
 github_username:  whosmansisthis
 disqus:
   shortname: scottish-walruses-1
-timezone:America/Los_Angeles
+timezone: America/Los_Angeles
 # Build settings
 markdown: kramdown
 theme: minima
