@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<script type="text/javascript">
+var color=prompt("What color do you want? The options are: orange, green, blue, teal, purple, white, yellow, and red");
+var amount=prompt("how many fabrics of the color "+color+" do you want?");
+var color2=prompt("Would you like to buy any more color fabrics? The options are the same as before. In case you forgot, they are orange, green, blue, teal, purple, white, yellow, and red.");
+var amount2=prompt("how many of the color "+color2+" do you want");
+confirm("You have chosen " + color + " and " + color2);
+var total= (amount * 20) + (amount2* 20);
+document.write("This is your total payment:" + total + " dollars");
+</script>
+</body>
+</html>

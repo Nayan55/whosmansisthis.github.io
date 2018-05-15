@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*my color palette
+color 1: 0D74FF
+color 2: 2A2F7F
+	color 3 :781C28
+	*/
+
+	
+	
+	
+/*------------------------
+	BASIC STRUCTURE
+------------------------*/
+#wrapper  {
+	width: 960px;
+	padding: 5px;
+	margin: 20px auto;
+	}
+	
+	#header {
+		height: 100px
+		}
+		
+		#sidebar {
+		float: left;
+		width:	300px;
+		}
+		#content {
+			float: right;
+			width: 600px;
+			}
+			#footer {
+				clear: both;
+				}
+/*------------------------
+	COLORS AND FONTS
+------------------------*/
+
+body {
+			font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+			color: blue;
+			background-color:rgba(0,155,255,1.00);
+			background-image: url("../images/leprechaun1.jpg");
+	}
+			#footer p{
+				text-align:right
+	}
+	
+	#header, #sidebar, #content, #footer {
+		background-color:#960000;
+		margin-bottom: 4px;
+		border:double;
+		border-radius:20px;
+		padding-left:4px;
+		padding-right:4px
+	}
+
+
+/*------------------------
+	RESPONSIVE WIDTH
+------------------------*/
+@media screen and (max-width: 980px) {
+	#wrapper{
+		width: 94%;
+	}
+	#content{
+	width: 65%;
+	}
+	#sidebar {
+		width: 30%;
+	}
+
+		
+}
+@media screen and (max-width: 700px) {
+}
+#content, #sidebar {
+	width:auto;
+	float: nonte;
+}
+#header {
+	height: auto;
+	}
+@media screen and (max-width: 480px){
+#header {
+	height: auto;
+	}
+	h1{
+		float: none;
+		}
+}
+/*phones*/
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px) {
+	body {
+		font-size: 40px;
+}
+#header{
+	height: auto;
+}
+#content {
+	width: auto;
+}
+#sidebar {
+	width: auto;
+	clear: both;
+}
+#header, #sidebar, #content, #footer{
+	
+	border-radius: 16px;
+	border-width: 8px;
+}
+}

@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<script type="text/javascript">
+var x=Math.floor(Math.random()*6);
+var time=Number(prompt("what hour is it (enter 1 for 1am but 13 for 1pm)"))
+switch(time){
+	case 1:
+	case 2:
+	case 3:
+	case 4:
+	case 5:
+	alert("we cannot serve you at this time. get a snack");
+	break;
+	case 6:
+	case 7:
+	case 8:
+	case 9:
+	case 10:
+	alert("you can get continental breakfast in the lobby");
+	var hi=confirm("would you like to make a reservation");
+	if(hi==true){
+		var hi=Boolean
+		alert("your reservation is at "+x);	
+	}
+
+	break;
+	case 11:
+	case 12:
+	case 13:
+	case 14:
+	alert("the restaurant is open");
+	var hi=confirm("would you like to make a reservation");
+	if(hi==true){
+		var hi=Boolean
+		alert("your reservation is at "+x);		
+	}
+
+	break;
+	case 15:
+	case 16:
+	alert("go get a snack");
+	case 17:
+	case 18:
+	case 19:
+	case 20:
+	case 21:
+	alert("you can go to the restaurant or order room service");
+	var hi=confirm("would you like to make a reservation");
+	if(hi==true){
+		var hi=Boolean
+		alert("your reservation is at "+x);		
+	}
+	break;
+	case 22:
+	case 23:
+	case 24:
+	alert("go get a snack");
+	}
+</script>
+</body>
+</html>
